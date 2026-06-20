@@ -1,5 +1,9 @@
+var t = document.getElementsByClassName("_log")[0]
+t.textContent = navigator.userAgent
 
-setTimeout(() => { 
-  console.log("suc")
-textTo("_tx", "hello")
-}, 11000)
+
+var t2 = document.getElementsByClassName("_log1")[0]
+var sw = screen.width
+var sh = screen.height
+
+t2.textContent = `${sw}x${sh} Ratio: ${findGcd(sw, sh)}`;
