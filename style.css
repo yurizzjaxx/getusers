@@ -1,0 +1,16 @@
+body {
+  place-content: center;
+  justify-items: center;
+  margin: 20px;
+  min-height: 100vh;
+}
+
+._log, ._log1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.box {
+  justify-items: center;
+}
