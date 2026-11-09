@@ -9,7 +9,7 @@ body {
   align-items: center;
 }
 
-._log, ._log1 {
+.Log, .TagHeight {
   font-size: 26px;
   font-weight: bold;
   margin: 0;
